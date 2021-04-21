@@ -40,7 +40,7 @@
         }
         @font-face{
             font-family:'Kozuka Mincho Pr6N' ;
-            src:url('/fonts/ Mincho Pr6N-Bold.otf');
+            src:url('/railgun/fonts/ Mincho Pr6N-Bold.otf');
         }
         div {
             
@@ -50,7 +50,7 @@
             color: black;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-image: url("/img/1.png");
+            background-image: url("/railgun/img/1.png");
 
             background-repeat: no-repeat;
 
