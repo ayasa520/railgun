@@ -1,0 +1,179 @@
+ 
+        * {
+            background-color: aliceblue;
+            padding: 0;
+            margin: 0;
+        }
+
+        .input-text {
+            position: relative;
+            width: 416px;
+            left: 50%;
+            margin-left: -250px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+
+        }
+
+
+        .input-text input {
+            position: relative;
+            width: 200px;
+            left: 50%;
+            margin: -100px;
+        }
+
+        button {
+            float: right;
+        }
+
+        .content {
+            position: relative;
+            width: 416px;
+            height: 958px;
+            left: 50%;
+            margin-left: -208px;
+            background-color: #fff;
+            overflow: hidden;
+
+        }
+        @font-face{
+            font-family:'Kozuka Mincho Pr6N' ;
+            src:url('/fonts/ Mincho Pr6N-Bold.otf');
+        }
+        div {
+            
+            font-family: 'Kozuka Mincho Pr6N';
+            position: absolute;
+            /*relative 相对于正常位置， absolute相对于父类*/
+            color: black;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: url("/img/1.png");
+
+            background-repeat: no-repeat;
+
+        }
+
+        .content-first {
+            width: 200px;
+            height: 200px;
+            left: 213.5px;
+            top: 5px;
+            transform: scaleX(1.07);
+            font-size: 200px;
+            vertical-align: baseline;
+            line-height: 1;
+            font-weight: 500;
+
+        }
+
+        .content-second {
+            width: 125.45px;
+            height: 125.45px;
+            left: 296px;
+            top: 168px;
+            line-height: 1   ;
+
+            overflow: hidden;
+            transform: scale(0.94, 1.02);
+            font-size: 125.45px;
+            font-weight: 500;
+        }
+
+        .content-third {
+
+            width: 115px;
+            height: 115px;
+            font-size: 113.72px;
+            text-align: left;
+            transform: scale(0.99, 0.99);
+            font-weight: bold;
+            line-height: 1;
+            left: 223px;
+            top: 241px;
+        }
+
+        .content-fourth,
+        .content-fifth {
+            width: 184px;
+            height: 184px;
+            text-align: left;
+            transform: scale(1.07, 0.99);
+            font-size: 183.6px;
+            line-height: 1;
+            font-weight: bold;
+        }
+
+        .content-fourth {
+
+            top: 340px;
+            left: 229px;
+
+        }
+
+        .content-fifth {
+            top: 521px;
+            left: 229px;
+        }
+
+        .content-sixth {
+            width: 170px;
+            height: 170px;
+            line-height: 1;
+            font-size: 170px;
+            font-weight: bold;
+            transform: scale(1.06, 0.99);
+            top: 698px;
+            left: 237px;
+
+        }
+
+        .content-seventh {
+            width: 211px;
+            height: 211px;
+            font-size: 211px;
+            left: 10px;
+            top: 220px;
+            line-height: 1;
+            transform: scale(1.02, 1.02);
+            font-weight: bold;
+
+
+        }
+
+        .content-eighth {
+            width: 145px;
+            height: 145px;
+            line-height: 1;
+            transform: scale(1.02, 1.05);
+            top: 446px;
+            left: 76px;
+            font-size: 145px;
+            font-weight: bold;
+        }
+
+        .content-ninth {
+            width: 161px;
+            height: 161px;
+            top: 582px;
+            left: 55px;
+            font-size: 161px;
+            transform: scale(1.13, 0.96);
+            font-weight: bold;
+            line-height:1;
+
+        }
+
+        .content-tenth {
+            width: 238px;
+            height: 238px;
+            line-height: 1;
+            transform: scale(1.01, 0.98);
+            font-weight: bold;
+            font-size: 238px;
+            top: 744px;
+            background-position: 0 744px;
+        }
+    
